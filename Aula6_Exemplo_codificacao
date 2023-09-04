@@ -1,0 +1,9 @@
+Transforme subu $s0, $s1, $s2 para binario:
+
+
+opcode -> 000000 (subu)
+registrador raiz  ->  10001 ($s1)
+registrador temporario  ->  10010 ($s2)
+registrador destino  ->  10000 ($s0)
+shmat -> 00000
+funct -> 100011
