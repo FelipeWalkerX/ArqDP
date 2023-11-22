@@ -1,0 +1,17 @@
+.data
+
+.text
+
+main:
+
+addi $t1, $zero, 5
+addi $t2, $zero, 10
+
+add $t3, $t1, $t2
+
+addi $v0, $zero, 1
+move $a0, $t3
+syscall
+
+addi $v0, $zero, 10
+syscall
