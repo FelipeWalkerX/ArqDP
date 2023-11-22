@@ -1,0 +1,39 @@
+int reconhecer-reg(char* str){
+
+      if(strcmp(str, "$t0")==0)
+            return 8;
+
+      ...
+      ...
+      ...      
+}
+
+
+void add(){
+
+    ler arquivo para ver se próximo str é um registrador
+    senão for "erro"
+
+    se for reg
+  
+    reconhecer_reg(str);
+
+    regdest = reconhecer_reg(str);
+    ler arquivo pegar a proxima string
+    regsrc =  reconhecer_reg(str);
+    ...
+
+    regs[8] = regs[9] + regs[10];
+
+}
+
+
+
+
+
+
+if(strcmp(str,"add") == 0){
+
+    add();
+
+}
